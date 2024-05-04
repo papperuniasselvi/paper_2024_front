@@ -18,7 +18,8 @@ const TodoComponent = () => {
         <div className="field has-addons">
           <div className="control is-expanded">
             <input
-              className="input"
+              required
+              className="input is-medium is-hovered"
               type="text"
               placeholder="Digite algo..."
               value={texto}
@@ -26,7 +27,7 @@ const TodoComponent = () => {
             />
           </div>
           <div className="control">
-            <button className="button is-primary" type="submit">
+            <button className="button is-primary is-medium" type="submit">
               Enviar
             </button>
           </div>
